@@ -8,10 +8,12 @@ menu:
 
 # Contact
 
-To get into contact with us and for business inquiries, email us at radioplayer@radio.com
+To get into contact with us, report bugs or issues, or suggest features for new version of Chromagotchi, reach out to us at any of these emails:
 
-To report an issue with this website, contact webdev@radio.com.
+- [cfee3@brynmawr.edu](cfee3@brynmawr.edu)
 
-To report an issue with the RadioPlayer interface, contact dev@radio.com.
+- [bangchel@sas.upenn.edu](bangchel@sas.upenn.edu)
 
-To suggest new features, give feedback, or request changes, contact design@radio.com.
+- [layay@wharton.upenn.edu](layay@wharton.upenn.edu)
+
+- [jwotto@wharton.upenn.edu](jwotto@wharton.upenn.edu)
