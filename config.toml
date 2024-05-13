@@ -1,7 +1,7 @@
 author = "Clara Fee"
-baseURL = 'https://claraxfee.github.io/hugo-mock-landing-page-autodeployed/'
+baseURL = 'https://claraxfee.github.io/chromagotchi-landing-page/'
 copyright = "Clara Fee"
-title = "RadioPlayer"
+title = "Chromagotchi"
 
 timeZone = 'Europe/London'
 languageCode = 'en-us'
