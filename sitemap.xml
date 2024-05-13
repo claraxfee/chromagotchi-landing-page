@@ -2,106 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/authors/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/authors/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/post/fixes/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/post/fixes/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/</loc>
+    <lastmod>2024-05-13T03:08:16-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/chromagotchi-landing-page/authors/clara-fee/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/authors/clara-fee/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/post/custom/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/post/custom/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/post/phone-it-in/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/post/phone-it-in/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/tags/post/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/tags/post/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/tags/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/tags/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/about/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/about/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/chromagotchi-landing-page/code-of-conduct/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/categories/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/contact/</loc>
+    <lastmod>2024-05-13T03:08:16-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/code-of-conduct/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/page/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/contact/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/tags/featured/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/page/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/authors/filipe-carneiro/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/tags/featured/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/tags/index/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/authors/filipe-carneiro/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/post/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/tags/index/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/tags/privacy/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/post/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/privacy-policy/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/tags/privacy/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/page/user-guide/</loc>
     <lastmod>2024-05-12T20:48:49-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/privacy-policy/</loc>
-    <lastmod>2024-05-12T20:48:49-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/page/user-guide/</loc>
-    <lastmod>2024-05-12T20:48:49-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://claraxfee.github.io/chromagotchi-landing-page/series/</loc>
+    <loc>http://localhost:1313/chromagotchi-landing-page/series/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
