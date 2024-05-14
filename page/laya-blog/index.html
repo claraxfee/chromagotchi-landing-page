@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
+    
+
+<link rel="stylesheet" href="https://claraxfee.github.io/chromagotchi-landing-page/css/style.b705a845179aef584cda6f77f536cb64fc5ec202ec959ccffb4a446c4f142e4561c97ff85db5cb1c5a271037c73c9b4e128ce656982635d6bcdbd0172b52652e.css" media="screen" integrity="sha512-twWoRRea71hM2m939TbLZPxewgLslZzP&#43;0pEbE8ULkVhyX/4XbXLHFonEDfHPJtOEozmVpgmNda829AXK1JlLg==" crossorigin="anonymous">
+
+    <title>[Blog Post] Post-Mortem Analysis: Lessons from Developing Chromagotchi</title>
+
+<meta name="description" content="Decisions, challenges, and lessons learned from our project.">
+
+
+
+<link rel="canonical" href="https://claraxfee.github.io/chromagotchi-landing-page/page/laya-blog/" />
+
+
+<link rel="alternate" hreflang="en-us" href="https://claraxfee.github.io/chromagotchi-landing-page/page/laya-blog/" />
+<link rel="alternate" hreflang="x-default" href="https://claraxfee.github.io/chromagotchi-landing-page/page/laya-blog/" />
+
+
+
+
+<meta property="og:title" content="[Blog Post] Post-Mortem Analysis: Lessons from Developing Chromagotchi" />
+<meta property="og:description" content="Decisions, challenges, and lessons learned from our project." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://claraxfee.github.io/chromagotchi-landing-page/page/laya-blog/" />
+  <meta property="article:section" content="page" />
+  
+  
+    <meta property="article:modified_time" content="2024-05-14T01:48:38-04:00" />
+  
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="[Blog Post] Post-Mortem Analysis: Lessons from Developing Chromagotchi"/>
+<meta name="twitter:description" content="Decisions, challenges, and lessons learned from our project."/>
+
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "[Blog Post] Post-Mortem Analysis: Lessons from Developing Chromagotchi",
+  "datePublished": "0001-01-01T00:00:00+00:00",
+  "dateModified": "2024-05-14T01:48:38-04:00",
+  "mainEntityOfPage": "https://claraxfee.github.io/chromagotchi-landing-page/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Chromagotchi"
+  },
+  "wordcount" :  541 ,
+  "description": "Decisions, challenges, and lessons learned from our project.",
+  "keywords": ["chromagotchi","development","Laya Yalamanchili","blog","blog post"]
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<link rel="icon" type="image/svg+xml" href="https://claraxfee.github.io/chromagotchi-landing-page/favicon.svg">
+<link rel="icon" type="image/png" href="https://claraxfee.github.io/chromagotchi-landing-page/favicon.png">
+
+</head>
+
+<body class="page single d-flex flex-column min-vh-100"><header class="main-header">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+      
+      <a class="navbar-brand" href="/chromagotchi-landing-page/">
+        
+        Chromagotchi
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="menu-main navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/chromagotchi-landing-page/contact/" title='Contact' aria-label='Contact'>Contact</a>
+          </li>
+          
+          </ul>
+
+        
+        
+        
+
+      </div>
+    </div>
+  </nav>
+</header><div id="content">
+        
+
+<div class="container py-3">
+  <h1 id="post-mortem-analysis-lessons-from-developing-chromagotchi">Post-Mortem Analysis: Lessons from Developing Chromagotchi</h1>
+<p>By Laya Yalamanchili</p>
+<p>In developing our Chromagotchi chrome extension, we balanced functionality, aesthetics, and user interaction. This post-mortem analysis aims to dissect the decisions, challenges, and lessons learned from our project, focusing on the evolution from our initial proposal to the final implementation.</p>
+<h3 id="the-balancing-act-functionality-vs-aesthetics">The Balancing Act: Functionality vs. Aesthetics</h3>
+<p>Initially, our project proposal envisioned a Chrome extension that would motivate users to minimize their time on distracting websites by nurturing a digital pet akin to a Tamagotchi. This extension targeted users who struggle to stay focused, such as college students who need to carve out significant study time without succumbing to distractions like social media and video platforms.</p>
+<h4 id="challenges-and-solutions">Challenges and Solutions:</h4>
+<ul>
+<li>Visual Appeal vs. Practicality: Our first major hurdle was integrating compelling visuals with robust functionality. We aimed to captivate users with a cute, interactive Tamagotchi, which required a visually appealing interface that could potentially complicate the underlying functionality.</li>
+<li>Iterative Design: We adopted an iterative approach, initially focusing on basic functionalities such as displaying the Tamagotchi avatar and health bar. This strategy allowed us to establish a functional foundation before layering on more complex features like the main screen and time tracking.</li>
+</ul>
+<h3 id="key-features-and-decision-making">Key Features and Decision-Making</h3>
+<p>As we further defined our project scope, we realized the importance of feature prioritization. Our approach underscored the necessity of implementing the most critical functionalities first.</p>
+<h4 id="development-insights">Development Insights:</h4>
+<ul>
+<li>Core Features: The popup displaying the Tamagotchi and health status was first developed, followed by the main screen interface. These elements were crucial as they formed the primary user interaction points.</li>
+<li>Feature Refinement: We initially planned extensive features, including a detailed categorization of websites and customizable notifications. However, we streamlined these to focus on core functionalities like health tracking and simple notifications to enhance user experience without overwhelming them.</li>
+</ul>
+<h3 id="task-management-and-integration">Task Management and Integration</h3>
+<p>Splitting tasks effectively among team members was crucial. We divided our efforts between developing the popup and the homepage separately, which allowed specialized focus areas before integrating these components into a cohesive user experience.</p>
+<h4 id="lessons-learned">Lessons Learned:</h4>
+<ul>
+<li>Collaboration Efficiency: Dividing work allowed team members to specialize and innovate within their domains, leading to more efficient problem-solving.</li>
+<li>Integration Strategy: Regular integration and testing phases were essential in ensuring that separate components worked seamlessly together, which was particularly pivotal for the popup and main screen functionality.</li>
+</ul>
+<h3 id="simplifying-the-user-experience">Simplifying the User Experience</h3>
+<p>Our original concept involved users manually categorizing tabs as &ldquo;on-task&rdquo; or &ldquo;off-task.&rdquo; However, this proved cumbersome in early testing. We pivoted to a system where all tabs were tracked, but users could mark tabs as important or &ldquo;starred&rdquo;, simplifying the interaction and focusing on productivity rather than micromanagement.</p>
+<h4 id="strategic-decisions">Strategic Decisions:</h4>
+<ul>
+<li>Feature Reduction: To avoid clutter and enhance user focus, we removed numerous less essential features, prioritizing a cleaner, more straightforward user experience.</li>
+<li>User Autonomy: By automating certain aspects like tab tracking, we reduced user workload, allowing them to focus more on productivity and less on managing the extension.</li>
+</ul>
+<h3 id="conclusion">Conclusion</h3>
+<p>The development of Chromagotchi taught us invaluable lessons in balancing aesthetic appeal with practical functionality, prioritizing essential features, and managing tasks among a diverse team. These insights refined our final product and enhanced our overall approach to software development, emphasizing the importance of adaptability and user-centric design in creating effective digital tools.</p>
+
+</div>
+
+
+    </div>
+    <footer class="py-3 mt-auto bg-light">
+  <div class="container py-1 my-1">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <p class="col-md mb-0 text-muted">SWE Group 18: Clara Fee, Via Liu, John Otto, Laya Yalamanchili</p>
+      <ul class="nav col-md-auto justify-content-end">
+        <li class="nav-item"><a href="/chromagotchi-landing-page/code-of-conduct/" class="nav-link px-2 text-muted" title='Code of Conduct' aria-label='Code of Conduct'>Code of Conduct</a></li>
+        <li class="nav-item"><a href="/chromagotchi-landing-page/privacy-policy/" class="nav-link px-2 text-muted" title='Privacy Policy' aria-label='Privacy Policy'>Privacy Policy</a></li>
+        </ul>
+    </div>
+  </div>
+</footer>
+    
+
+
+
+
+
+    <script src="/chromagotchi-landing-page/js/main.min.e8d88c82c0438b527f1aca4115652ba1e2877bf805b75593b23ac0e3fe2b3fe95a467d1feef275355132ba061da6404b0d24d55afabc209b294b1db043be014d.js" integrity="sha512-6NiMgsBDi1J/GspBFWUroeKHe/gFt1WTsjrA4/4rP&#43;laRn0f7vJ1NVEyugYdpkBLDSTVWvq8IJspSx2wQ74BTQ==" crossorigin="anonymous" defer></script>
+  
+  
+
+
+
+</body>
+</html>
