@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Chromagotchi</title>
-    <link>https://claraxfee.github.io/chromagotchi-landing-page/page/</link>
+    <link>http://localhost:1313/chromagotchi-landing-page/page/</link>
     <description>Recent content in Docs on Chromagotchi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>SWE Group 18: Clara Fee, Via Liu, John Otto, Laya Yalamanchili</copyright>
-    <atom:link href="https://claraxfee.github.io/chromagotchi-landing-page/page/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/chromagotchi-landing-page/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Blog Post] Chromagotchi Development Journey</title>
-      <link>https://claraxfee.github.io/chromagotchi-landing-page/page/clara-blog/</link>
+      <link>http://localhost:1313/chromagotchi-landing-page/page/clara-blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://claraxfee.github.io/chromagotchi-landing-page/page/clara-blog/</guid>
+      <guid>http://localhost:1313/chromagotchi-landing-page/page/clara-blog/</guid>
       <description>Chromagotchi Development Journey: Design Decisions, Mistakes, Lessons Learned By Clara Fee&#xA;This blog post details my perspective on the Chromagotchi development process. I attempt to explore the various design and functionality decisions we made while developing the extension, focusing particularly on the reasoning behind these decisions as well as the lessons we learned during the process.&#xA;Ideation In the initial ideation phase, we decided that we wanted to make a tool that helped users improve their productivity.</description>
     </item>
     <item>
       <title>[Blog Post] Post-Mortem Analysis: Lessons from Developing Chromagotchi</title>
-      <link>https://claraxfee.github.io/chromagotchi-landing-page/page/laya-blog/</link>
+      <link>http://localhost:1313/chromagotchi-landing-page/page/laya-blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://claraxfee.github.io/chromagotchi-landing-page/page/laya-blog/</guid>
+      <guid>http://localhost:1313/chromagotchi-landing-page/page/laya-blog/</guid>
       <description>Post-Mortem Analysis: Lessons from Developing Chromagotchi By Laya Yalamanchili&#xA;In developing our Chromagotchi chrome extension, we balanced functionality, aesthetics, and user interaction. This post-mortem analysis aims to dissect the decisions, challenges, and lessons learned from our project, focusing on the evolution from our initial proposal to the final implementation.&#xA;The Balancing Act: Functionality vs. Aesthetics Initially, our project proposal envisioned a Chrome extension that would motivate users to minimize their time on distracting websites by nurturing a digital pet akin to a Tamagotchi.</description>
     </item>
     <item>
       <title>[Demo Video] Chromagotchi Demo Video</title>
-      <link>https://claraxfee.github.io/chromagotchi-landing-page/page/demo-vid/</link>
+      <link>http://localhost:1313/chromagotchi-landing-page/page/demo-vid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://claraxfee.github.io/chromagotchi-landing-page/page/demo-vid/</guid>
+      <guid>http://localhost:1313/chromagotchi-landing-page/page/demo-vid/</guid>
       <description>Chromagotchi Demo Video Click here to view our Demo Video for Chromagotchi, made by our developer Via Liu!</description>
     </item>
   </channel>
