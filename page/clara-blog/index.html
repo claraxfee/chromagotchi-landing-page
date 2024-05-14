@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en-us">
-<head>
+<head><script src="/chromagotchi-landing-page/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chromagotchi-landing-page/livereload" data-no-instant defer></script>
     
 
 
@@ -10,7 +10,7 @@
 <meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
     
 
-<link rel="stylesheet" href="https://claraxfee.github.io/chromagotchi-landing-page/css/style.b705a845179aef584cda6f77f536cb64fc5ec202ec959ccffb4a446c4f142e4561c97ff85db5cb1c5a271037c73c9b4e128ce656982635d6bcdbd0172b52652e.css" media="screen" integrity="sha512-twWoRRea71hM2m939TbLZPxewgLslZzP&#43;0pEbE8ULkVhyX/4XbXLHFonEDfHPJtOEozmVpgmNda829AXK1JlLg==" crossorigin="anonymous">
+<link rel="stylesheet" href="/chromagotchi-landing-page/css/style.css" media="screen">
 
     <title>[Blog Post] Chromagotchi Development Journey</title>
 
@@ -18,11 +18,11 @@
 
 
 
-<link rel="canonical" href="https://claraxfee.github.io/chromagotchi-landing-page/page/clara-blog/" />
+<link rel="canonical" href="http://localhost:1313/chromagotchi-landing-page/page/clara-blog/" />
 
 
-<link rel="alternate" hreflang="en-us" href="https://claraxfee.github.io/chromagotchi-landing-page/page/clara-blog/" />
-<link rel="alternate" hreflang="x-default" href="https://claraxfee.github.io/chromagotchi-landing-page/page/clara-blog/" />
+<link rel="alternate" hreflang="en-us" href="http://localhost:1313/chromagotchi-landing-page/page/clara-blog/" />
+<link rel="alternate" hreflang="x-default" href="http://localhost:1313/chromagotchi-landing-page/page/clara-blog/" />
 
 
 
@@ -30,11 +30,11 @@
 <meta property="og:title" content="[Blog Post] Chromagotchi Development Journey" />
 <meta property="og:description" content="An analysis of our development process for Chromagotchi; our design decisions, mistakes, and lessons learned." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://claraxfee.github.io/chromagotchi-landing-page/page/clara-blog/" />
+<meta property="og:url" content="http://localhost:1313/chromagotchi-landing-page/page/clara-blog/" />
   <meta property="article:section" content="page" />
   
   
-    <meta property="article:modified_time" content="2024-05-14T01:49:46-04:00" />
+    <meta property="article:modified_time" content="2024-05-14T16:32:24-04:00" />
   
 
 
@@ -63,13 +63,13 @@
   "@type": "Article",
   "headline": "[Blog Post] Chromagotchi Development Journey",
   "datePublished": "0001-01-01T00:00:00+00:00",
-  "dateModified": "2024-05-14T01:49:46-04:00",
-  "mainEntityOfPage": "https://claraxfee.github.io/chromagotchi-landing-page/",
+  "dateModified": "2024-05-14T16:32:24-04:00",
+  "mainEntityOfPage": "http://localhost:1313/chromagotchi-landing-page/",
   "publisher": {
     "@type": "Organization",
     "name": "Chromagotchi"
   },
-  "wordcount" :  66 ,
+  "wordcount" :  917 ,
   "description": "An analysis of our development process for Chromagotchi; our design decisions, mistakes, and lessons learned.",
   "keywords": ["chromagotchi","development","clara fee","blog","blog post"]
 }
@@ -87,8 +87,8 @@
 
 
     
-<link rel="icon" type="image/svg+xml" href="https://claraxfee.github.io/chromagotchi-landing-page/favicon.svg">
-<link rel="icon" type="image/png" href="https://claraxfee.github.io/chromagotchi-landing-page/favicon.png">
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/chromagotchi-landing-page/favicon.svg">
+<link rel="icon" type="image/png" href="http://localhost:1313/chromagotchi-landing-page/favicon.png">
 
 </head>
 
@@ -131,9 +131,20 @@
 <p>By Clara Fee</p>
 <p>This blog post details my perspective on the Chromagotchi development process. I attempt to explore the various design and functionality decisions we made while developing the extension, focusing particularly on the reasoning behind these decisions as well as the lessons we learned during the process.</p>
 <h3 id="ideation">Ideation</h3>
+<p>In the initial ideation phase, we decided that we wanted to make a tool that helped users improve their productivity. As college students, we wanted a tool that would help motivate us to stay on task; in particular, we discussed how easy it was to be distracted even when working on your personal work laptop.</p>
+<p>We decided to try to design a tool that encouraged users to stay on task websites. We decided against creating a tool similar to a lockdown browser, or a tool that would totally bar the user from being on &ldquo;off task&rdquo; websites, because we all acknowledged that this would be too strict of a requirement and might be discouraging for our users. Instead, we intended to create a tool that took a more gentle and enouraging approach, which is how we ended up with the Tamagotchi idea!</p>
 <h3 id="initial-design-and-proposed-functionality">Initial design and proposed functionality</h3>
+<p>In our initial design, we decided to base our extension on the popular toy Tamagotchi. Tamagotchis are little digital pets that require the user to look after them, or else they die and you have to start over with a new pet! In the spirit of our productivity tool, and drawing on other popular digital pet features in communities like Neocities, we drew up a design that encouraged the user to spend time on productive websites.</p>
+<p>In our initial design, we had an extensive list of features. We wanted to allow the user to upgrade their Chromagotchi, customize their avatar extensively, and manually label &ldquo;off task&rdquo; and &ldquo;on task&rdquo; websites.</p>
 <h3 id="development-process">Development process</h3>
-<h3 id="final-product">Final product</h3>
+<p>Over the course of the development process, we had to make a lot of difficult decisions about functionality, constrained by time and also our collective technical ability. We decided to focus specifically on the time tracking functionality, ensuring that the extension correctly tracked the amount of time spent on all tabs in a given browser instance; we knew that this time tracking would lay the groundwork for the essential parts of our extension, and that we could build our features on top of this functionality. We also, in the end, decided to split the project into a couple parts: a popup and a landing page that contained most of the functionality.</p>
+<p>In my opinion, the biggest lessons we learned over this development process were not about specific coding skills, design decisions, or even project design and development&mdash;although I and all of our members certainly learned a lot about all of those things. Instead, I think that the biggest takeaway that we came away with was learning how to effectively divide up work and work as a team on developing a software product. This is a difficult but critical process; really only one person can be coding a given file, and so it can be difficult to split up the project without losing control over its direction.</p>
+<p>In our development process, we worked to be really intentional about how we were dividing work to remedy this. For example, splitting the project into a popup and landing page was helpful because it allowed two people to work on each, and (because the popup had much simpler interface and functionality) allowed those of us with less programming experience to contribute equally to the project. We did our best to tailer the project to each of our skills.</p>
+<p>John primarily wrote the time tracking functionality, for example, because he had some experience with React; Via ended up writing a lot of the landing page functionality, as he had more experience with React and overall project design. Laya helped us out with creating a prettier and sleeker looking interface because she had graphic design background; I ended up helping Laya with the final style design because I was more familiar with HTML/CSS. I also helped integrate many of these different parts, and wrote the popup part of the project to help me learn and practice with React.</p>
+<h3 id="final-product-and-my-final-thoughts">Final product and my final thoughts</h3>
+<p>In the end, our final product is a reflection of many of the design decisions and lessons we learned along the way. We decided to modify our original idea slightly, and have the Chromagotchi&rsquo;s health depend on both time spent on different websites as well as the number of tabs open. This decision was made because we discovered that it was pretty easy to track the number of tabs, and we wanted to encourage users to keep their browser uncluttered and organized!</p>
+<p>We also created a final product that was pretty organized as a coding project; a mistake we made early in the process was creating a code structure that was cluttered and unorganized, with a lot of redundant files and folders. About halfway through the project we ended up redesigning and condensing a lot of these files together, creating a project that was easier to work on for everyone.</p>
+<p>Overall, we learned a lot about project management, software engineering, and overall how to design and develop a new software product from scratch, starting with ideation all the way to development and release. All of us worked collaboratively to make this happen, and we are very proud of our final product&mdash;hope you enjoy!</p>
 
 </div>
 
@@ -156,11 +167,8 @@
 
 
 
-    <script src="/chromagotchi-landing-page/js/main.min.e8d88c82c0438b527f1aca4115652ba1e2877bf805b75593b23ac0e3fe2b3fe95a467d1feef275355132ba061da6404b0d24d55afabc209b294b1db043be014d.js" integrity="sha512-6NiMgsBDi1J/GspBFWUroeKHe/gFt1WTsjrA4/4rP&#43;laRn0f7vJ1NVEyugYdpkBLDSTVWvq8IJspSx2wQ74BTQ==" crossorigin="anonymous" defer></script>
+    <script src="/chromagotchi-landing-page/js/main.js" defer></script>
   
-  
-
-
 
 </body>
 </html>
